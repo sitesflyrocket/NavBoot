@@ -40,7 +40,9 @@
     display: none;
   }
 
-
+  .nav-items {
+    float: left;
+  }
   @media screen and (max-width: 768px) {
     .nav-items {
       float: right;
@@ -75,6 +77,9 @@
         margin: revert!important;
         display: block;
     }
+    .nav-items {
+        float: right;
+      }
   }
 
   .logo {
