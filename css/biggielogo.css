@@ -3,6 +3,11 @@
 }
 .icons {
     text-align: center;
+    word-spacing: 15px;
+}
+.icons a {
+    color: white;
+    font-size: 24px;
 }
 .logo_biggie {
     max-width: 600px;
