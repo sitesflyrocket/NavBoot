@@ -1,6 +1,6 @@
 header {
     background: black;
-    height: 300px;
+    height:auto;
 }
 .width .column_plus > h1{
 font-size: 16px;
@@ -48,6 +48,7 @@ color: white;
     .item {
         flex-basis: 50%;
     }
+ 
 }
 @media (max-width:320px) {
     .item {
@@ -56,4 +57,5 @@ color: white;
     .column_plus p {
         max-width: 330px;
     }
+   
 }
