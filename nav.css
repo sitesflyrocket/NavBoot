@@ -1,0 +1,84 @@
+.nav-overlay {
+    height: 100vh;
+    width: 0;
+    position: fixed;
+    z-index: 10000;
+    background-color: black;
+    overflow-x: hidden;
+    transition: all 0.2s;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.nav-overlay a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #E8F4F7;
+    display: block;
+    transition: 0.2s;
+}
+
+.nav-overlay a:hover {
+    color: white;
+}
+
+.nav-overlay .toggle-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 30px;
+    font-size: 22px;
+}
+
+.nav-overlay .toggle-nav:hover {
+    cursor: pointer;
+    background-color: #005a75;
+}
+
+.nav-items a:last-child {
+    display: none;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .nav-items {
+      float: right;
+    }
+    .nav-items a {
+      display: none;
+      padding: 0;
+    }
+    .nav-items a:last-child {
+      display: none;
+    }
+    .nav-items a:last-child {
+      display: block;
+      padding: 10px;
+      margin: 0;
+      border-bottom: none;
+    }
+    .nav span {
+      text-align: left;
+      display: block;
+      position: absolute;
+      padding: 10px;
+    }
+    .topbar {
+      padding: 10px;
+    }
+    .nav-items a:last-child {
+      display: block;
+    }
+    .logo {
+        max-width: 130px;
+        margin: revert!important;
+        display: block;
+    }
+  }
+
+  .logo {
+    max-width: 130px;
+    margin: auto;
+    display: block;
+}
