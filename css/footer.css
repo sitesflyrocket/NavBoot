@@ -1,0 +1,46 @@
+header {
+    background: black;
+}
+.width .column_plus > h1{
+font-size: 16px;
+}
+.width {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.column h1 {
+font-size: 16px;
+color: white;
+}
+.column a {
+    display: block;
+}
+.column_plus p {
+    font-size: 14px;
+    max-width: 230px;
+}
+.column_plus h1 {
+    font-size: 16px;
+color: white;
+}
+.column_plus {
+    flex-basis: 20%;
+}
+.column {
+    flex-basis: 20%;
+    padding: 0px 10px;
+}
+@media (max-width:768px) {
+    .item {
+        flex-basis: 50%;
+    }
+}
+@media (max-width:320px) {
+    .item {
+        flex-basis: 90%;
+    }
+    .column_plus p {
+        max-width: 330px;
+    }
+}
