@@ -48,6 +48,9 @@ color: white;
     .item {
         flex-basis: 50%;
     }
+    .column {
+        padding: 0px;
+    }
  
 }
 @media (max-width:320px) {
