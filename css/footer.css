@@ -1,5 +1,6 @@
 header {
     background: black;
+    height: 300px;
 }
 .width .column_plus > h1{
 font-size: 16px;
@@ -15,10 +16,14 @@ color: white;
 }
 .column a {
     display: block;
+    text-decoration: none;
+    color: var(--bs-gray);
 }
 .column_plus p {
     font-size: 14px;
     max-width: 230px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
 }
 .column_plus h1 {
     font-size: 16px;
@@ -30,6 +35,14 @@ color: white;
 .column {
     flex-basis: 20%;
     padding: 0px 10px;
+}
+.column_plus {
+    font-size: 14px;
+}
+.column_plus span {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
 }
 @media (max-width:768px) {
     .item {
