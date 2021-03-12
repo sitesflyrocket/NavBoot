@@ -14,3 +14,11 @@
     margin: auto;
     display: block;
 }
+@media (max-width:768px) {
+    .glass_logo {
+        padding: 10px;
+    }
+    .logo_biggie {
+        max-width: 300px;
+    }
+}
