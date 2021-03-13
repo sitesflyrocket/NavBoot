@@ -7,21 +7,18 @@ header {
 .column h1 {
     font-size: 16px;
     font-weight: 700;
-    color:  rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     margin-bottom: 20px;
-    
 }
 
 .column span {
     font-size: 14px;
     font-weight: 400;
     margin: 10px;
-    
 }
 
 .column p {
     max-width: 300px;
-
 }
 
 .column a {
@@ -30,9 +27,11 @@ header {
     color: rgba(255, 255, 255, 0.6);
     margin: 7px 0px;
 }
+
 .column a:hover {
     text-decoration: underline;
 }
+
 /* End */
 
 .content {
@@ -40,11 +39,13 @@ header {
     width: 90%;
     margin: auto;
 }
+
 @media (max-width:768px) {
     .column h1 {
         margin-bottom: 20px;
     }
 }
+
 @media (min-width: 600px) {
     .content {
         grid-template-columns: repeat(2, 1fr);
@@ -52,7 +53,6 @@ header {
     .column {
         margin: 0px 30px;
     }
-    
 }
 
 @media (min-width: 1024px) {

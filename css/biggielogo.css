@@ -1,19 +1,23 @@
 .glass_logo {
     padding: 100px;
 }
+
 .icons {
     text-align: center;
     word-spacing: 15px;
 }
+
 .icons a {
     color: white;
     font-size: 24px;
 }
+
 .logo_biggie {
     max-width: 600px;
     margin: auto;
     display: block;
 }
+
 @media (max-width:768px) {
     .glass_logo {
         padding: 10px;
