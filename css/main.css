@@ -1,8 +1,19 @@
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: black!important;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
 nav {
     display: grid!important;
     color: white!important;
     line-height: 10px!important;
-    background: black!important;
+    /* background-color:black; */
 }
 
 .container, .container-md, .container-sm {
@@ -10,7 +21,9 @@ nav {
 }
 
 /* OPEN */
+
 .topbar {
     float: right;
 }
+
 /* END */

@@ -1,7 +1,7 @@
 /* Setings */
 
 header {
-    color: blanchedalmond;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .column h1 {
@@ -12,18 +12,23 @@ header {
 .column span {
     font-size: 14px;
     font-weight: 400;
+    margin: 10px;
+    
 }
 
 .column p {
     max-width: 300px;
+
 }
 
 .column a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: rgba(255, 255, 255, 0.6);
 }
-
+.column a:hover {
+    text-decoration: underline;
+}
 /* End */
 
 .content {
